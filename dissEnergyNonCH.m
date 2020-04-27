@@ -8,8 +8,6 @@ function clusterModel = dissEnergyNonCH(clusterModel, roundArch)
 %       clusterModel = newCluster(netArch, nodeArch, 'def', r);
 %       clusterModel = dissEnergyCH(clusterModel);
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
     
     nodeArch = clusterModel.nodeArch;
     netArch  = clusterModel.netArch;

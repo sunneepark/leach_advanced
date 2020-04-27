@@ -11,9 +11,6 @@ function nodeArch = newNodes(netArch, numNode)
 %       netArch  = createNetwork();
 %       nodeArch = createNodes(netArch, 100)
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
-
     
     if ~exist('netArch','var')
         netArch = newNetwork();

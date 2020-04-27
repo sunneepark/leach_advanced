@@ -11,8 +11,6 @@ function clusterModel = newCluster(netArch, nodeArch, ...
 %   Example:
 %       clusterModel = newCluster();
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
 
     % set the parameters
     if ~exist('clusterFun','var')

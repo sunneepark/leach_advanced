@@ -1,5 +1,4 @@
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
+
 clc, clear all, close all
 
 numNodes = 100; % number of nodes

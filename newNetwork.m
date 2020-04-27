@@ -16,8 +16,6 @@ function NetArch = newNetwork(Length, Width, sinkX, sinkY, initEnergy...
 %   Example:
 %       NetArch = createNetwork();
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
 
     %%%% Create the yard
     Yard.Type = 'Rect'; % Rectangular

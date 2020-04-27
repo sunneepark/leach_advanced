@@ -8,8 +8,6 @@ function NetRound = newRound(numRound, packetLength, ctrPacketLength)
 %   Example:
 %       NetRound = newRound();
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
 
     if ~exist('numRound','var')
         NetRound.numRound = 9999; % default of the maximum round is 9999

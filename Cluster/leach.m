@@ -9,8 +9,6 @@ function [nodeArch, clusterNode] = leach(clusterModel, clusterFunParam)
 %   Example:
 %       [nodeArch, clusterNode] = feval('leach', clusterModel, clusterFunParam);
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
     
     nodeArch = clusterModel.nodeArch;
     netArch  = clusterModel.netArch;

@@ -6,8 +6,6 @@ function P = prob(r, p)
 %   Example:
 %       P = prob(1, 0.1);
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
 %
     if ~exist('p','var')
         p = 0.1;

@@ -10,8 +10,6 @@ function kOpt = clusterOptimum(netArch, nodeArch, dBS)
 %       numClusters     = clusterOptimum(netArch, nodeArch, dBS);
 %
 %
-% Mohammad Hossein Homaei, Homaei@wsnlab.org & Homaei@wsnlab.ir
-% Ver 1. 10/2014
 
     N    = nodeArch.numNode; % number of nodes
     M    = sqrt(netArch.Yard.Length * netArch.Yard.Width);
